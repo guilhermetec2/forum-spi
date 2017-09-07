@@ -33,11 +33,11 @@
 
 <!-- Footer -->
 <footer class="w3-container w3-theme-d3 w3-padding-16">
-  <h5>Desenvolvido por Guilherme Rodrigues & William Carneiro</h5>
+<h5>Desenvolvido por <a href="https://github.com/guilhermetec2" target="_blank" class="w3-hover-text-blue">Guilherme Rodrigues Rosa</a></h5>
 </footer>
 
 <footer class="w3-container w3-theme-d5">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-blue">w3.css</a></p>
 </footer>
  
 <script src="js/functions.js"></script>
