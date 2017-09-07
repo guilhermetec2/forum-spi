@@ -1,0 +1,198 @@
+
+/*LOGO*/
+.logo-grande{
+	width: 100vw;
+	height: 30vw;
+	background-image: url("../img/LogoGrande2.png");
+	background-size: contain;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+.icone-logo{
+	width: 26px;
+	height: 28px;
+	float: left;
+	background-image: url("../img/logo-pequeno.png");
+	background-size: contain;
+	background-position: center; 
+	background-repeat: no-repeat;
+	margin-right: 5px;
+}
+
+/*---------------------------------------------------*/
+
+
+/*CARDS DE POSTAGENS RECENTES*/
+.card-recentes{
+	width: 100%;
+	height: 220px;
+	transition: all ease 300ms;
+	position: relative;
+}
+
+.card-recentes a{
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.card-recentes:hover{
+	transform: scale(1.2);
+}
+
+
+.imagem-card-recentes{
+	width: 30%;
+	height: 50%;
+	float: left;
+	
+}
+
+.imagem-card-recentes img{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	margin-top: calc(50% - 40px);
+}
+
+.imagem-card-recentes i{
+	position: relative;
+	font-size: 72px;
+	top: calc(50% - 36px);
+}
+
+.nome-card-recentes{
+	width: 70%;
+	height: 50%;
+	float:left;
+	padding: 5px;
+	padding-top: 25px;
+}
+
+.descricao-card-recentes{
+	width: 100%;
+	height: 50%;
+	float:left;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+/*------------------------------------------*/
+
+/*TOPICOS*/
+.nome-topico{
+	overflow: hidden;
+}
+
+.posts-topico,
+.user-topico{
+	width: 20%;
+	float: left;
+}
+
+.topico-titulo-user{
+	padding: 1em;
+}
+
+.topico-titulo-user{
+	text-align: center;
+	margin-top: -10px;
+}
+
+.topico-titulo-user p{
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+/*TOPICOS - BALÕES*/
+.left, .right{
+	  color: #fff;
+	  padding: 15px;
+	  position: relative;
+	  width: calc(70% - 30px);
+	  border-radius: 10px;
+
+	  margin-bottom: 20px;
+	}
+
+	.left{
+		margin-left: 30px;
+	}
+	.right{
+		margin-right: 30px;
+	}
+
+	.left:before {
+	  border: 40px solid transparent;
+	  border-right-color: #87ceeb;
+	  content: "";
+	  left: -70px;
+	  top: 0px;
+	  position: absolute;
+	}
+
+	.right:after{
+		border: 40px solid transparent;
+		border-left-color: #8bc34a;
+		content: "";
+		right: -70px;
+		top: 0px;
+		position: absolute;
+	}
+/*--------------------------*/
+/*------------------------------------------*/
+
+.foto-perfil{
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+}
+
+.foto-perfil-media{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+
+.foto-perfil-mini{
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+}
+
+#image-holder img{
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+}
+
+.container-temas{
+	margin-top: 20px;
+}
+
+.temas{
+	width: 70%;	
+	margin: auto;
+}
+
+.temas + .temas{
+	margin-top: 10px;
+}
+
+.wrapper-tema{
+	width: calc((100% / 5) - 10px);
+	height: 50px;
+	float: left;
+	background-color: black;
+}
+
+.wrapper-tema button{
+	width: 100%;
+	height: 100%;
+
+}
+
+.wrapper-tema + .wrapper-tema{
+	margin-left: 10px;
+}
