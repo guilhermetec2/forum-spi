@@ -2,9 +2,9 @@
 Este projeto foi desenvolvido como trabalho de conclusão da cadeira de Programação para Internet 1 (PHP) no qual tirei a nota maxima.
 
 LINK DO SITE:
-http://freedev.16mb.com/projetos/forum/index.php
-login: teste
-senha: teste
+http://freedev.16mb.com/projetos/forum/index.php 
+login: teste;
+senha: teste;
 Ou cadastre-se.
 
 
