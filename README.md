@@ -9,7 +9,7 @@ Ou cadastre-se.
 
 
 DESCRIÇÃO:
-O escopo do projeto consistia em desenvolver um site baseado em uma estrutura de forum, ou seja, dividio em categorias, foruns, topicos e posts.
+O escopo do projeto consistia em desenvolver um site com tema de livre escolha baseado em uma estrutura de forum, ou seja, dividio em categorias, foruns, topicos e posts. O tema escolhido para o Forum foi o proprio curso, Sistems para Internet, sendo que os Semestres representam as categorias e as Cadeiras representam os Foruns com suas categorias e tópicos. 
 
 Requisitos obrigatórios:
  a) Visual contruído em HTML5 e CSS 3;
